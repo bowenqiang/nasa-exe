@@ -1,6 +1,7 @@
 import 'whatwg-fetch';
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import NasaComponent from './NasaComponent';
 
 
 const Throwaway = styled.p`
@@ -11,6 +12,6 @@ const Throwaway = styled.p`
 
 export default class Apod extends Component {
   render() {
-    return <Throwaway>Build me!</Throwaway>;
+    return <NasaComponent />;
   }
 }
